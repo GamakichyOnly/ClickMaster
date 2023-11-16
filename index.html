@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <title>ClickMaster by Mendoza</title>
+    </head>
+    <body>
+        <div class="container">
+            <header>
+                <img src="https://i.mydramalist.com/ROkdP_5f.jpg" alt="picture ko" width="10%">
+                <h1>Vanderlei B. Mendoza</h1>
+                <p>CS - 202</p>
+            </header>
+            <h1>Welcome to ClickMaster</h1>
+            <section>
+                <p>Challenge yourself and test your clicking speed with ClickMaster! Can you click as fast as possible in just 10 seconds? Find out now!</p>
+        
+                <p>How it works:</p>
+                <ol>
+                    <li>Click the "INCREMENT" button to begin the 10-second countdown.</li>
+                    <li>Click as many times as you can within the time limit.</li>
+                    <li>When the timer reaches zero, your clicking speed will be displayed.</li>
+                </ol>
+        
+                <p>Compete with friends, track your progress, and see who can achieve the highest clicks! ClickMaster is a fun and interactive way to measure your clicking skills.</p>
+            </section>
+            <div id="countdown"></div>
+            <h2 id="count-el">0</h2>
+            <button id="increment-btn" onclick="increment()">INCREMENT</button>
+            <button id="save-btn" onclick="save()">SAVE</button>
+            <p id="save-el">Previous entries: </p>
+        </div>
+        <script src="index.js">
+        </script>
+    </body>
+</html>
